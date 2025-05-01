@@ -1,0 +1,67 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f5ec;
+  border-bottom: 1px solid #ddd;
+  position: relative; /* Added relative positioning for better control over child elements */
+}
+
+.left .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4b2e2e;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  margin-left: 8px;
+  width: 100%;
+}
+
+.searchIcon {
+  color: #888;
+}
+
+.rightIcons {
+  display: flex;
+  gap: 15px;
+  color: #4b2e2e;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Styling for Admin Login Button */
+.adminLoginContainer {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.adminLoginButton {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.adminLoginButton:hover {
+  background-color: #0056b3;
+}

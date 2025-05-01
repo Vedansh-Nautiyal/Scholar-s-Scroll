@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5b084; /* Warm parchment background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    background-color: #fdf8e4; /* Light cream paper */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4b3b2b;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #c5b293;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff8e7;
+    color: #333;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a67b5b;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #8c6549;
+  }
+  
+  .error {
+    color: #b30000;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  

@@ -1,0 +1,118 @@
+/* Container for the page */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2dfc6;
+  background-image: url("/parchment-texture.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: "Georgia", serif;
+  color: #3e2723;
+  border: 5px solid red; /* This can be removed or customized */
+}
+
+/* Main content area */
+.main {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Heading Style */
+.heading {
+  font-size: 2.5rem;
+  margin: 30px 0;
+  color: #4e342e;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+/* Grid Layout for Categories and Books */
+.booksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Adjusts the grid to fit smaller screens */
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* Category Heading Style */
+.categoryHeading {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  color: #4e342e;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Individual Book Card Style */
+.bookCard {
+  background-color: rgba(255, 250, 230, 0.95);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  max-width: 220px; /* Limit the width of each book card */
+  width: 100%;
+}
+
+.bookCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Book Image - Ensure resizing */
+.bookCard img {
+  width: 100%; /* Make sure the image fits the card width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image fills the space and retains its aspect ratio */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block; /* Ensures block-level behavior */
+}
+
+/* Book Title Style */
+.bookTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Book Author Style */
+.bookAuthor {
+  font-size: 1rem;
+  color: #5d4037;
+  margin-bottom: 15px;
+}
+
+/* Read Button Style */
+.readButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  background-color: #8d6e63;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.readButton:hover {
+  background-color: #6d4c41;
+  transform: scale(1.05);
+}
+
+.buttonIcon {
+  margin-right: 8px;
+}

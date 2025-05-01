@@ -1,0 +1,150 @@
+.adminContainer {
+  display: flex;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #1a1a1a;
+  color: white;
+  padding-top: 20px;
+  position: fixed;
+  height: 100vh;
+}
+
+.logoContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navItem {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.navItem:hover {
+  background-color: #333;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+  width: calc(100% - 240px);
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+}
+
+.cardContainer {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+/* New styles for image and description fields */
+.form .imageInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form .descriptionInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.imagePreview {
+  margin-top: 10px;
+  max-width: 200px;
+}
+
+.table .imageColumn {
+  width: 120px;
+  text-align: center;
+}
+
+.table .descriptionColumn {
+  max-width: 200px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Additional styles for the content layout */
+.table td img {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.table td a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.table td a:hover {
+  text-decoration: underline;
+}

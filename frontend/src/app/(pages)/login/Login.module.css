@@ -1,0 +1,84 @@
+/* Container for the whole page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d5b084; /* Matches the website's parchment theme */
+  margin: 0;
+  padding: 0;
+}
+
+/* Login form card */
+.card {
+  background-color: #fdf8e4;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100px;
+  height: auto;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4b3b2b;
+}
+
+/* Input fields */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #c5b293;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff8e7;
+}
+
+/* Submit button */
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a67b5b;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #8c6549;
+}
+
+/* Forgot password and signup link */
+.extra-links {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #4b3b2b;
+}
+
+.extra-links a {
+  color: #6b4e34;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.extra-links a:hover {
+  text-decoration: underline;
+}
